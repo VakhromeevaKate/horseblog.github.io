@@ -9,7 +9,7 @@ jobs:
 
     steps:
     - uses: actions/checkout@v1npm run build
-    - name: Run a multi-line script
+    - name: Run a build script
       run: |
-        echo Add other actions to build,
-        echo test, and deploy your project.
+        npm run build
+        echo Build
